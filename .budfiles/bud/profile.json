@@ -1,0 +1,226 @@
+{
+  "version": null,
+  "config": {
+    "development": {
+      "bud.config.development.js": {
+        "name": "bud.config.development.js",
+        "path": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bud.config.development.js"
+      }
+    },
+    "production": {
+      "bud.config.production.js": {
+        "name": "bud.config.production.js",
+        "path": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bud.config.production.js"
+      }
+    },
+    "base": {
+      "bug.config.js": {
+        "name": "bug.config.js",
+        "path": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bug.config.js"
+      },
+      "bud.config.json": {
+        "name": "bud.config.json",
+        "path": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bud.config.json",
+        "module": {
+          "entry": {
+            "app": [
+              "index.js",
+              "index.css"
+            ]
+          }
+        }
+      },
+      "package.json": {
+        "name": "package.json",
+        "path": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/package.json",
+        "module": {
+          "devDependencies": {
+            "@roots/bud": "^5.8.7"
+          }
+        }
+      }
+    }
+  },
+  "manifest": {
+    "devDependencies": {
+      "@roots/bud": "^5.8.7"
+    }
+  },
+  "installed": {
+    "@roots/bud": "^5.8.7"
+  },
+  "context": {
+    "name": "bud",
+    "cwd": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme",
+    "projectDir": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme",
+    "manifest": {
+      "devDependencies": {
+        "@roots/bud": "^5.8.7"
+      }
+    },
+    "disk": {
+      "projectDir": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme",
+      "config": {
+        "package.json": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/package.json",
+        "bud.config.development.js": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bud.config.development.js",
+        "bud.config.json": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bud.config.json",
+        "bud.config.production.js": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bud.config.production.js",
+        "bug.config.js": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/bug.config.js"
+      }
+    },
+    "application": {
+      "dir": "/Users/ametthey/Local Sites/bud/app/public/wp-content/themes/bud_theme/node_modules/@roots/bud",
+      "name": "@roots/bud",
+      "version": "5.8.7",
+      "description": "Frontend build tools combining the best parts of Symfony Encore and Laravel Mix",
+      "homepage": "https://roots.io/bud",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/roots/bud.git",
+        "directory": "sources/@roots/bud"
+      },
+      "contributors": [
+        {
+          "name": "kellymears",
+          "url": "https://github.com/kellymears"
+        },
+        {
+          "name": "QWp6t",
+          "url": "https://github.com/QWp6t"
+        },
+        {
+          "name": "clayrisser",
+          "url": "https://github.com/clayrisser"
+        }
+      ],
+      "license": "MIT",
+      "bugs": {
+        "url": "https://github.com/roots/bud/issues"
+      },
+      "funding": {
+        "type": "github sponsors",
+        "url": "https://github.com/sponsors/roots"
+      },
+      "keywords": [
+        "bud",
+        "roots",
+        "webpack"
+      ],
+      "engines": {
+        "node": ">=14"
+      },
+      "bin": "./bin/bud.js",
+      "files": [
+        "bin/",
+        "lib/",
+        "types/",
+        "vendor/"
+      ],
+      "main": "./lib/cjs/index.js",
+      "module": "./lib/esm/index.js",
+      "types": "./types/index.d.ts",
+      "exports": {
+        ".": "./lib/cjs/index.js",
+        "./cli": "./lib/cjs/cli/index.js",
+        "./context": "./lib/cjs/context/index.js",
+        "./context/*": "./lib/cjs/context/*/index.js",
+        "./extensions": "./lib/cjs/extensions/index.js",
+        "./extensions/*": "./lib/cjs/extensions/*/index.js",
+        "./factory": "./lib/cjs/factory/index.js",
+        "./services": "./lib/cjs/services/index.js"
+      },
+      "typesVersions": {
+        "*": {
+          ".": [
+            "./types/index.d.ts"
+          ],
+          "cli": [
+            "./types/cli/index.d.ts"
+          ],
+          "context": [
+            "./types/context/index.d.ts"
+          ],
+          "context/*": [
+            "./types/context/*.d.ts"
+          ],
+          "extensions": [
+            "./types/extensions/index.d.ts"
+          ],
+          "extensions/*": [
+            "./types/extensions/*/index.d.ts"
+          ],
+          "factory": [
+            "./types/factory/index.d.ts"
+          ],
+          "services": [
+            "./types/services/index.d.ts"
+          ]
+        }
+      },
+      "devDependencies": {
+        "@skypack/package-check": "0.2.2",
+        "@types/braces": "3.0.1",
+        "@types/fs-extra": "9.0.13",
+        "@types/lodash": "4.14.182",
+        "@types/mini-css-extract-plugin": "2.5.0",
+        "@types/node": "16.11.36",
+        "@types/node-notifier": "8.0.2"
+      },
+      "dependencies": {
+        "@roots/bud-api": "5.8.7",
+        "@roots/bud-build": "5.8.7",
+        "@roots/bud-cache": "5.8.7",
+        "@roots/bud-compiler": "5.8.7",
+        "@roots/bud-dashboard": "5.8.7",
+        "@roots/bud-extensions": "5.8.7",
+        "@roots/bud-framework": "5.8.7",
+        "@roots/bud-hooks": "5.8.7",
+        "@roots/bud-server": "5.8.7",
+        "@roots/bud-support": "5.8.7",
+        "@roots/container": "5.8.7",
+        "clean-webpack-plugin": "^4.0.0",
+        "clipanion": "3.2.0-rc.11",
+        "copy-webpack-plugin": "^11.0.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.4.5",
+        "node-notifier": "10.0.1",
+        "tslib": "2.4.0",
+        "typanion": "3.9.0",
+        "type-fest": "^2.5.4",
+        "webpack": "5.72.1",
+        "webpack-cli": "^4.9.1",
+        "webpack-manifest-plugin": "^5.0.0",
+        "webpack-remove-empty-scripts": "0.8.0"
+      },
+      "label": "bud"
+    },
+    "colorDepth": 256,
+    "args": {
+      "cache": null,
+      "ci": null,
+      "clean": null,
+      "debug": false,
+      "devtool": null,
+      "flush": null,
+      "hash": null,
+      "html": null,
+      "indicator": true,
+      "inject": null,
+      "log": null,
+      "manifest": null,
+      "minimize": null,
+      "mode": "development",
+      "modules": null,
+      "notify": true,
+      "overlay": true,
+      "browser": false,
+      "editor": false,
+      "publicPath": null,
+      "src": null,
+      "splitChunks": null,
+      "target": null,
+      "verbose": false
+    }
+  },
+  "publicEnv": {}
+}

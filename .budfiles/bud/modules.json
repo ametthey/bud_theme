@@ -1,0 +1,23 @@
+{
+  "chunks": {
+    "byName": {
+      "app": 143
+    },
+    "bySource": {
+      "0 app": 143
+    },
+    "usedIds": [
+      143
+    ]
+  },
+  "modules": {
+    "byIdentifier": {
+      "./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./src/index.css": 944,
+      "./src/index.js": 138
+    },
+    "usedIds": [
+      138,
+      944
+    ]
+  }
+}
